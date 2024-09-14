@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 150px;
+    padding-right:150px;
+    box-sizing: border-box;
+    
+    .gallery{
+        background-color: #F6F6F6;
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-top: 30px;
+        @media screen and (max-width: 0px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 530px) {
+            background-color: initial;
+            padding: 0%;
+        }
+    
+    }
+
+  
+    @media screen and (max-width: 750px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+

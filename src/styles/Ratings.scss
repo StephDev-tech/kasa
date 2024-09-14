@@ -1,0 +1,18 @@
+.ratings {
+    width: 100%;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+	.fa-star {
+		font-size: 20px;
+		color: #e3e3e3;
+
+        @media screen and (max-width: 500px) {
+            font-size: medium;
+        }
+	}
+    .rated{
+        color: $primary-color;
+    }
+}
