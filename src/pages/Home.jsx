@@ -8,7 +8,7 @@ import Loader from "../components/Loader.jsx";
 const Home = () => {
 	let [houseData, setHouseData] = useState(null);
 	useEffect(() => {
-		houseSheetData("/data.json")
+		houseSheetData("/kasa/data.json")
 			.then((datas) => {
 				setHouseData(datas || []);
 			})

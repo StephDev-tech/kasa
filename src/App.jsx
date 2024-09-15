@@ -10,7 +10,7 @@ import './styles/Index.scss'
 const App = () => {
 	return (
 		<div className="App">
-			<Router>
+			<Router basename="/kasa">
         		<Header />
 				<Routes>
 					<Route path="/" element={<Home />} />

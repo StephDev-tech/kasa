@@ -13,7 +13,7 @@ const Housesheet = () => {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		houseSheetDataById("/data.json", houseId)
+		houseSheetDataById("/kasa/data.json", houseId)
 			.then((result) => {
 				if (!result) {
 					return navigate("/error");

@@ -1,6 +1,7 @@
 const houseSheetData = async (url) => {
     const baseUrl = window.location.origin;
     const data = await fetch(baseUrl + url);
+    
     return await data.json();
   };
 
